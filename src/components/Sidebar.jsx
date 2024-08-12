@@ -21,7 +21,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="h-[150vh] w-[72px] lg:w-72 flex relative">
+    <div className="h-[250vh] w-[72px] lg:w-72 flex relative">
       <aside
         id="logo-sidebar"
         className={`lg:relative absolute top-0 left-0 bottom-0 z-40 w-72 h-full transition-transform lg:translate-x-0 ${menuActive
