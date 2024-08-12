@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Gellif;
+  src: url("/public/assets/fonts/Gellix-Medium.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,4 +20,13 @@ body {
   width: 100vw;
   /* Site theme */
   background-color: whitesmoke;
+  font-family: Gellif;
+}
+
+.font-gellif {
+  font-family: Gellif, sans-serif;
+}
+
+.radCus {
+  border-radius: 8px 0px 0px 8px;
 }
